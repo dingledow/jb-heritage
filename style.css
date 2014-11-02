@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'AndronFreefontLATRegular';
+	src: url('fonts/andron_freefont_lat_reg-webfont.eot');
+	src: local('☺'), url('fonts/andron_freefont_lat_reg-webfont.woff') format('woff'), url('fonts/andron_freefont_lat_reg-webfont.ttf') format('truetype'), url('fonts/andron_freefont_lat_reg-webfont.svg#webfontv0nr2pr5') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.clear:after {
+content: ""; display: block; clear: both;
+}
+
+.clear {  }
+
+body {
+background: url(images/background.jpg) repeat;
+}
+
+h2{
+	font-family: 'AndronFreefontLATRegular', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1{
+	font-family: 'AndronFreefontLATRegular', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#333;
+}
+
+#container {
+width: 960px; margin: 0 auto;
+}
+
+#header{
+	height:50px;
+}
+
+.logo{
+	margin: 20px 20px 15px -10px;
+	float:left;
+}
+
+.nav a{
+	font-size:18px;
+	float: right;
+	margin: 30px 0 0 40px;
+	font-family: 'AndronFreefontLATRegular', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#999;
+	text-decoration:none;
+}
+
+.nav a:hover{
+	color:#333;
+	border-bottom:#CCC 1px solid;
+	padding-bottom: 5px;
+}
+
+.header-sep{
+	margin: 0 0 0 -10px;
+}
+
+/* Easy Slider */
+
+#slider{
+	margin: 0 0 0 27px;
+	padding-top:25px
+}
+
+#slider ul, #slider li{
+	margin:0 0 0 0;
+	padding:0;
+	list-style:none;
+	}
+	
+#slider li{ 
+	/* 
+	define width and height of list item (slide)
+	entire slider area will adjust according to the parameters provided here
+	*/ 
+	width:952px;
+	height:268px;
+	overflow:hidden; 
+}
+		
+.banner{
+	background-image:url(images/banner.png);
+	width:1008px;
+	height:320px;
+	margin:42px 0 0 -25px;
+}
+
+#content{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#666;
+	font-weight:100;
+	line-height:24px;
+	margin-bottom:20px;
+}
+
+#page-content{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#666;
+	font-weight:100;
+	line-height:24px;
+	margin-bottom:20px;
+	margin-top:60px;
+}
+
+#content .home-left {
+	width: 287px;
+	float:left;
+	margin-right:50px;
+	margin-bottom:10px;
+}
+
+#content .home-left h2{
+	font-size:22px;
+	color:#333;
+	font-weight:100;
+	border-bottom:#CCC 1px solid;
+	padding-bottom: 10px;
+}
+
+#content .home-left p{
+	margin-top:-10px;
+}
+
+.home-center{
+	width: 287px;
+	float:left;
+	margin-right:50px;
+}
+
+#content .home-center h2{
+	font-size:22px;
+	color:#333;
+	font-weight:100;
+	border-bottom:#CCC 1px solid;
+	padding-bottom: 10px;
+}
+
+#content .home-center p{
+	margin-top:-10px;
+}
+
+.home-right{
+	
+	width: 286px;
+	float:left;
+}
+
+#content .home-right h2{
+	font-size:22px;
+	color:#333;
+	font-weight:100;
+	border-bottom:#CCC 1px solid;
+	padding-bottom: 10px;
+}
+
+#content .home-right p{
+	margin-top:-10px;
+}
+
+.contact-right{
+	 width:200px; float:left;
+}
+
+.footer-sep{
+	margin: 0 0 0 -10px;
+}
+
+#footer{
+	height:100px;
+}
+
+#footer a{
+	font-family: 'AndronFreefontLATRegular', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:14px;
+	color:#333;
+}
+
+#footer p{
+	width: 250px;
+	float: left;
+	font-family: 'AndronFreefontLATRegular', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:14px;
+	color:#666;
+}
+
+.rics-logo{
+	width:150px;
+	float:right;
+	margin: 20px 0 0 20px;
+}
+
+.ihbc-logo{
+	width:86px;
+	float:right;
+	margin: 20px 0 0 0;
+}
